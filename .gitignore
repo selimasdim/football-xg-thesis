@@ -1,0 +1,20 @@
+# Virtual Environment
+.venv/
+venv/
+
+# PyCharm / IDE settings
+.idea/
+
+# StatsBomb dataset & Submodule configuration
+dataset-statsbomb/
+dataset-understat/
+dataset-fm2017/
+.gitmodules
+
+# Python & Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+#Enviroment Variables
+.env
