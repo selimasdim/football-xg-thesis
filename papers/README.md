@@ -171,4 +171,4 @@ $$ \text{Σύνολο ανά υπόλοιπο feature tier} = 5 \text{ (Αλγό
 * για oversampling κυριαρχούν 2 τεχνικες (Random Over-Sampling Examples και Synthetic Minority Over-sampling Technique)
 * Το undersampling που θεωρητικά φαίνεται ευκολότερο, πιθανότατα θα πρέπει cluster-based ώστε να διατηρηθεί η ίδια αναλογία των αποστάσεων στα οχι-γκολ σουτ
 * Calibration είναι must μετά απο over-under sampling
-* Υπάρχει η τάση σε κάποια από αυτά, να μην διαχειρίζονται κάπως το imbalance, αλλά να χρησιμοποιούν Stratified Splitting & Stratified K-Fold Cross-Validation, ώστε να διατηρηθεί η αναλογία 1:9 σε όλα τα splits
+* Υπάρχει η τάση σε κάποια από αυτά, να μην διαχειρίζονται κάπως το imbalance, αλλά να χρησιμοποιούν Stratified Splitting & Stratified K-Fold Cross-Validation, ώστε να διατηρηθεί η αναλογία 1:9 σε όλα τα splits (έτσι το έχω ηδη υλοποιήσει τα 3 μοντέλα που έχω ήδη κάνει train: BL1, BL2, BL3)
