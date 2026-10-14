@@ -14,6 +14,8 @@
 * **BL1**: Logistic Regression
 * **BL2**: Decision Trees
 * **BL3**: Random Forests
+* **BL4**: LightBGM
+* **BL5**: XGBoost
 * Gradient Boosting Trees (πχ XGBoost, LightGBM)
 * Neural Networks (απλά Multi-Layer Perceptrons)
 
